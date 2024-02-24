@@ -1,0 +1,10 @@
+<?php
+
+$con = pg_connect("host=127.0.0.1 port=5432 dbname=laravel_login user=postgres password=postgres123");
+if($con){
+	echo '1';
+}
+else{
+echo '2';
+}
+?>
